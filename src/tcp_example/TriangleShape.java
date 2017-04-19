@@ -11,10 +11,12 @@ public class TriangleShape implements GeometricShape {
 		this.sideC = sideC;
 	}
 	
+	//from GeometricShape
 	public double getPerimeter() {
 		return getSideA() + getSideB() + getSideC();
 	}
 	
+	//from GeometricShape
 	public double getArea() {
 		double halfPerimeter = getPerimeter() / 2;
 		
