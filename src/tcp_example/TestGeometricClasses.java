@@ -3,7 +3,7 @@ package tcp_example;
 public class TestGeometricClasses {
 
 	public static void main(String[] args) {
-		RectangleShape rectangle = new RectangleShape(10, 20);
+		RectangleShape rectangle = new RectangleShape(20, 20);
 		SquareShape square = new SquareShape(30);
 		TriangleShape triangle = new TriangleShape(3, 4, 5);
 		CircleShape circle = new CircleShape(1);
