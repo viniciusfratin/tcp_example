@@ -13,6 +13,8 @@ public class TestGeometricClasses {
 		System.out.println(square.toString());
 		System.out.println(triangle.toString());
 		System.out.println(circle.toString());
+		
+		System.out.println("Bye!");
 	}
 
 }
